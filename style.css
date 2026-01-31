@@ -1,0 +1,54 @@
+.navigation-bar {
+    display: flex;
+    justify-content: end;
+    
+}
+
+.links {
+    margin-right: 20px;
+    margin-top: 15px;
+    color:black;
+    text-decoration: none;
+}
+
+a.links:hover {
+    background-color: aqua;
+}
+
+.home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.description {
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    align-items: center;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    align-items: center;
+}
+
+.cn-details {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.mynumber {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
